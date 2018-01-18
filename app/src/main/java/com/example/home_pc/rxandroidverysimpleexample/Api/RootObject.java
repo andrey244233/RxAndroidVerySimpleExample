@@ -1,19 +1,19 @@
 package com.example.home_pc.rxandroidverysimpleexample.Api;
 
 
-import android.renderscript.Sampler;
+
 
 public class RootObject {
-    private Sampler.Value[] value;
+    private Value[] value;
 
     private String type;
 
-    public Sampler.Value[] getValue ()
+    public Value[] getValue ()
     {
         return value;
     }
 
-    public void setValue (Sampler.Value[] value)
+    public void setValue (Value[] value)
     {
         this.value = value;
     }
